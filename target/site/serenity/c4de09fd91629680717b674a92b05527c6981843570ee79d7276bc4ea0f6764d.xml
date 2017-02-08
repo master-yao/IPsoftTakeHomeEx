@@ -1,0 +1,18 @@
+<acceptance-test-run title="Should be english version" name="shouldBeEnglishVersion" steps="3" successful="0" failures="0" errors="1" skipped="2" ignored="0" pending="0" annotated-result="ERROR" result="ERROR" duration="328" timestamp="2017-02-07T22:05:54.341-05:00">
+  <user-story id="com.ipsoft.yao.takeHomeEx.navigation.WhenVisitingWikipedia" name="When visiting wikipedia" path="com.ipsoft.yao.takeHomeEx.navigation"/>
+  <tags>
+    <tag name="When visiting wikipedia" type="story"/>
+  </tags>
+  <test-step result="ERROR" duration="196">
+    <description>Is on home page</description>
+    <error>net.thucydides.core.webdriver.UnsupportedDriverException: Could not instantiate class org.openqa.selenium.firefox.FirefoxDriver</error>
+    <exception>net.thucydides.core.webdriver.UnsupportedDriverException:Could not instantiate class org.openqa.selenium.firefox.FirefoxDriver&#xd;
+[com.ipsoft.yao.takeHomeEx.step.NavigationUser.isOnHomePage(NavigationUser.java:19), com.ipsoft.yao.takeHomeEx.navigation.WhenVisitingWikipedia.shouldBeEnglishVersion(WhenVisitingWikipedia.java:25), org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:50), org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38), org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459), org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:675), org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382), org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)]</exception>
+  </test-step>
+  <test-step result="SKIPPED" duration="1">
+    <description>Navigates to english</description>
+  </test-step>
+  <test-step result="SKIPPED" duration="1">
+    <description>Should see page title containing: &lt;span class=&apos;step-parameter&apos;&gt;Wikipedia&lt;/span&gt;</description>
+  </test-step>
+</acceptance-test-run>
